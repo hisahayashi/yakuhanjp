@@ -6,15 +6,35 @@
 // / Glob Import > Config SCSS
 //----------------------------------------------------
 
-@import "./tone/**";
-@import "./variable/**";
-@import "./mixin/**";
+@import "tone/_iostone";
+@import "tone/_mdtone";
+@import "tone/_moftone";
+
+@import "variable/_breakpoint";
+@import "variable/_color";
+@import "variable/_customize";
+@import "variable/_font";
+@import "variable/_shadow";
+
+@import "mixin/_mediaquery";
+@import "mixin/_placeholder";
 
 //----------------------------------------------------
 // / Glob Import > Project SCSS
 //----------------------------------------------------
 
-@import "./base/**";
-@import "./layout/**";
-@import "./module/**";
-@import "./utility/**";
+@import "base/_global";
+
+@import "layout/_grid";
+@import "layout/_section";
+
+@import "module/_group";
+@import "module/_list";
+@import "module/_object";
+@import "module/_tab";
+@import "module/_table";
+@import "module/_text";
+@import "module/_wysiwyg";
+
+@import "utility/_deco";
+@import "utility/_size";
