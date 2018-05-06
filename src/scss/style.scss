@@ -6,15 +6,15 @@
 // / Glob Import > Config SCSS
 //----------------------------------------------------
 
-@import "tone/**";
-@import "variable/**";
-@import "mixin/**";
+@import "./tone/**";
+@import "./variable/**";
+@import "./mixin/**";
 
 //----------------------------------------------------
 // / Glob Import > Project SCSS
 //----------------------------------------------------
 
-@import "base/**";
-@import "layout/**";
-@import "module/**";
-@import "utility/**";
+@import "./base/**";
+@import "./layout/**";
+@import "./module/**";
+@import "./utility/**";
